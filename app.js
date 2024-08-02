@@ -12,10 +12,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: false }));
 
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'recipedb'
+    host: 'mysql-prajeshrp.alwaysdata.net',
+    user: 'prajeshrp',
+    password: 'alwaysdata222',
+    database: 'prajeshrp_ga'
 });
 
 connection.connect((err) => {
