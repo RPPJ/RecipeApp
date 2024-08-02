@@ -1,0 +1,33 @@
+body {
+    padding-top: 60px;
+    background-color: lightgreen;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.actions form {
+    display: inline;
+}
+
+.actions button {
+    border: none;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.actions button.text-danger {
+    color: red !important;
+}
+
+.actions button.text-primary {
+    color: blue !important;
+}
